@@ -13,7 +13,7 @@ public class FilterStatusCommand extends Command {
 
     public static final String MESSAGE_USAGE = COMMAND_WORD + ": Filters persons by status.\n"
             + "Parameters: STATUS (must be one of: none, pending_approval, servicing, pending_external, on_hold)\n"
-            + "Example: " + COMMAND_WORD + " s/servicing";
+            + "Example: " + COMMAND_WORD + " st/servicing";
 
     private final Status statusToFilter;
 
