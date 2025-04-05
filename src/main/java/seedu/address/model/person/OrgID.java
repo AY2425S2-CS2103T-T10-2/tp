@@ -10,8 +10,8 @@ import static seedu.address.commons.util.AppUtil.checkArgument;
 public class OrgID {
     public static final String MESSAGE_CONSTRAINTS = "OrgIDs should only "
             + "be unique numeric values "
-            + ", should be less than 10 digits "
-            + "and it should not be blank";
+            + ", should be less than or equal to 10 digits "
+            + "and it should not be blank.";
 
     /*
      * The first character of the OrgID must not be a whitespace,
